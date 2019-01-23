@@ -12,51 +12,62 @@ body {
 	position: absolute;
 	animation-name: move;
 	animation-duration: 5s;
+	text-align: center;
+	line-height:150px;
+	font-family: arial;
+	font-size: 18px;
 }
 
 @keyframes move {
 	0% {
+		background-color: pink;
 		left: 0px;
 		top: 0px;
 	}
 	10% {
+		background-color: red;
 		left: calc(100% - 150px);
 		top: 0px;
+		border-radius: 50%;
 	}
 	20% {
+		background-color: blue;
 		left: calc(100% - 150px);
 		top: calc(100% - 150px);
 	}
 	30% {
+		background-color: yellow;
 		left: 0%;
 		top: calc(100% - 150px);
 	}
 	40% {
+		background-color: green;
 		left: 0%;
 		top: calc(0% + 150px);
-
-
 	}
-
-
 	50% {
+		background-color: orange;
 		left: calc(100% - 300px);
 		top: calc(0% + 150px);
 	}
 
 	60% {
+		background-color: deeppink;
 		left: calc(100% - 300px);
 		top: calc(100% - 300px);
 	}
 	70% {
+		background-color: blueviolet;
 		left: calc(0% + 300px);
 		top: calc(100% - 300px);
 	}
 	80% {
+		background-color: forestgreen;
 		left: calc(0% + 300px);
 		top: calc(50% - 150px);
 	}
 	90% {
+		background-color: hotpink;
 		left: calc(60% - 150px);
 		top: calc(50% - 150px);
 	}
